@@ -47,11 +47,11 @@ jobs:
           path: ./docs/.vuepress/dist/ # or path/to/artifact
           
           
-#       - name: config for github bot
-#         run: |
-#           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-#           git config --local user.name "github-actions[bot]"
-#           git config --system core.longpaths true
+      - name: config for github bot
+        run: |
+          sudo git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          sudo git config --local user.name "github-actions[bot]"
+          sudo git config --system core.longpaths true
 
 
 
