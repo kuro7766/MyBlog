@@ -58,11 +58,9 @@ jobs:
       - run: git add -f ./docs/.vuepress/dist/
       - run: git commit -m "auto changes"
 
-
-
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
-         github_token: ${{ secrets._GITHUB_TOKEN}}
+         github_token: ${{ secrets._GITHUB_TOKEN }}
          branch: deployment
          force: true
