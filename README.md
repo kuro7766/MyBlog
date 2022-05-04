@@ -2,8 +2,8 @@
 
 先下载主题模板，再根据自己的需要进行相应的修改，再根据自己的服务器配置 Github Actions 文件，最后上传到 Github，触发 Github Actions 自动构建部署到服务器
 
-- > [最新博客链接](https://tsanfer.com/views/frontEnd/vuepress_theme_reco-Github_Actions.html)
-- > [Github 链接](https://github.com/Tsanfer/vuepress_theme_reco-Github_Actions)
+
+- > [原Github 链接](https://github.com/Tsanfer/vuepress_theme_reco-Github_Actions)
 
 [![CI/CD](https://github.com/Tsanfer/vuepress_theme_reco-Github_Actions/workflows/CI/CD/badge.svg)](https://github.com/Tsanfer/vuepress_theme_reco-Github_Actions/actions)
 [![Lint Code Base](https://github.com/Tsanfer/vuepress_theme_reco-Github_Actions/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/Tsanfer/vuepress_theme_reco-Github_Actions/actions)
