@@ -50,7 +50,7 @@ jobs:
       - name: config for github bot
         run: |
           sudo git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          sudo git config --local user.name "github-actions[bot]"
+          sudo git config --local user.name "myself"
           sudo git config --system core.longpaths true
 
 
