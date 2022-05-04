@@ -4,7 +4,7 @@ module.exports = {
 //   host: "0.0.0.0", // 生成网页地址（本地调试使用）
 //   port: "22333", // 生成网页端口（本地调试使用）
   
-  baseURL: "/unsafe/v/",
+//   baseURL: "/unsafe/v/",
   title: "Tsanfer's Blog", // 显示在左上角的网页名称以及首页在浏览器标签显示的title名称
   description: "现居住于猎户臂上的一个碳基生命", // meta 中的描述文字，用于SEO
   head: [
@@ -177,7 +177,7 @@ module.exports = {
         meting: {
           server: "netease",
           type: "playlist",
-          mid: "4902520778",
+          mid: "2880512563",
         },
         aplayer: {
           lrcType: 3,
