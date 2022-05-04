@@ -11,6 +11,7 @@ jobs:
 #         with:
 #           fetch-depth: 2
       - run: git checkout master 
+      - run: git pull --prune
 #       --prune
 
       - name: Use Node.js 14.x
